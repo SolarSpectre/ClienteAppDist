@@ -1,10 +1,14 @@
 package cliente.test;
 
 import cliente.clase.Cliente;
+import cliente.vista.VistaCliente;
 
 
-public class Test{
+import javax.swing.*;
+
+public class Test {
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("localhost", 5000);
+        new VistaCliente().setVisible(true);
+
     }
 }
